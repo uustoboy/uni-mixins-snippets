@@ -1,0 +1,30 @@
+{
+	"id": "mixins-snippets",
+	"name": "mixins-snippets",
+	"description": "scss/sass snippets",
+	"displayName": "scss/sass snippets",
+	"version": "0.0.1",
+	"publisher": "uustoboy",
+	"engines": {
+		"HBuilderX": "^2.7.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "scss",
+				"path": "./snippets/scss.json"
+			},
+			{
+				"language": "sass",
+				"path": "./snippets/scss.json"
+			}
+		]
+	},
+	"extensionDependencies": [
+		"plugin-manager"
+	],
+	"dependencies": {}
+}
